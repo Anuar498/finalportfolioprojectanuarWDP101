@@ -1,0 +1,13 @@
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 1rem;
+}
+.carousel img {
+    flex-shrink: 0;
+}
